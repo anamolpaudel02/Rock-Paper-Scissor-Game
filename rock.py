@@ -6,7 +6,7 @@ youstr = input("Enter your choice (rock/paper/sisscor): ").lower()
 youDict = {"rock": 1, "paper": -1, "sissor": 0}
 reverseDict = {1: "rock", -1: "paper", 0: "sissor"}
 
-# Input validation (your original code would crash here)
+# Input validation 
 if youstr not in youDict:
     print("Invalid input!")
     exit()
